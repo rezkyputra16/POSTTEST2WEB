@@ -1,0 +1,246 @@
+*, html, body {
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin: 0;
+    padding: 0;
+    font-family: "Open", sans-serif;
+}
+html {
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.container{
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    width: 100%;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1cm;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname{
+    color: white;
+    font-weight: 700;
+}
+
+.lastname{
+    color: rgb(59, 42, 214);
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigation>li>a:hover{
+    color: rgb(59, 42, 214);
+    transition: all .3s ease-in-out;
+}
+.aktif{
+    background-color: rgb(59, 42, 214);
+    color: white;
+    padding: 15px;
+}
+
+.aktif:hover{
+    color: white !important;
+}
+
+.container2{
+    text-align: center;
+    width: 100%;
+}
+
+.intro{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    
+}
+.intro1{
+    line-height: 25px;
+    width: 550px;
+    padding-top: 20px;
+    font-size: medium;
+    align-content: center;
+    padding-left: 370px;
+}
+
+.img1{
+    /* padding : 30px 0 0 400px; */
+    width: 100%;
+    padding-top: 40px;
+    
+}
+
+.img1 .gambar{
+    padding: 0 40px 0 40px;
+    
+}
+
+.gambar1 {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.gambar1 div{
+    text-align: center;
+    flex: 1;
+}
+
+.kotak{
+    height: 100px;
+}
+
+.gambar1 p{
+    padding: 25px 0 0 0;
+    line-height: 25px;
+}
+
+.gambar1 h3{
+    padding-top: 30px;
+}
+
+.gambar2{
+    padding: 90px 0 80px 190px;
+    transform: scale(1.09);
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.gambar2 h2{
+    padding: 70px 0 0 70px;
+}
+
+.kotak1{
+    width: 500px;
+}
+
+.kotak1 p{
+    line-height: 20px;
+    padding-left: 70px;
+}
+.kotak1 h2{
+    padding-bottom: 20px;
+}
+.gambar3{
+    padding: 90px 0 80px 190px;
+    display: flex;
+}
+.kotak2{
+    padding-left: 90px;
+    transform: scale(1.09);
+}
+.a{
+    width: 500px;
+    line-height: 25px;
+}
+
+.a h2{
+    padding-bottom: 20px;
+}
+.kontainer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+    
+}
+
+.kontainer h3{
+    color: aliceblue;
+    padding: 25px 0 0 180px;
+    
+}
+
+form {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    padding: 40px 0 0 40px;
+    
+  }
+  
+  footer h4 {
+    color: #cad0d6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  footer ul li {
+    color: #6c757d;
+    margin-bottom: 10px;
+    
+  }
+  
+  footer form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    
+  }
+  
+  footer form .form-control {
+    border-radius: 0;
+    padding: 10px;
+  }
+  
+  footer form textarea {
+    resize: none;
+  }
+  
+  footer form button {
+    border-radius: 0;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+  }
+  
+  .ft1{
+    color: #a5a4a4;
+    background-color: #000000;
+    text-align: center;
+  }
+
+  

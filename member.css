@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #afaaaa;
+    margin: 0; 
+    
+  }
+  .container1{
+    display: flex;
+    width: 100%;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1cm;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname{
+    color: white;
+    font-weight: 700;
+}
+
+.lastname{
+    color: rgb(59, 42, 214);
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigation>li>a:hover{
+    color: rgb(59, 42, 214);
+    transition: all .3s ease-in-out;
+}
+.aktif{
+    background-color: rgb(59, 42, 214);
+    color: white;
+    padding: 15px;
+}
+
+.aktif:hover{
+    color: white !important;
+}
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 12 8' fill='%23424242' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 8L0 0h12L6 8zm0-5L3 0h6l-3 3z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 8px;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  .btn {
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .tombol{
+    padding-top: 50px;
+    text-align: center;
+  }

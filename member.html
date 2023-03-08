@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Perpustakaan Seberang</title>
+    <link rel="stylesheet" href="member.css">
+</head>
+<body>
+    <body>
+        <div class="container1">
+            <nav class="wrapper">
+                <div class="brand">
+                    <div class="firstname">perpustakaan</div>
+                    <div class="lastname">seberang</div>
+                </div>
+                <ul class="navigation">
+                    <li><a href="posttest2.html">Beranda</a></li>
+                    <li><a href="profil.html" class="aktif">Profil</a></li>
+                    <li><a href="buku.html">Buku</a></li>
+                    <li><a href="member.html">Member</a></li>
+                </ul>
+            </nav>
+        </div>
+    <h1>Formulir Pendaftaran Perpustakaan</h1>
+    <form>
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan alamat email" required>
+
+      <label for="password">Kata Sandi:</label>
+      <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+
+      <label for="jenis-kelamin">Jenis Kelamin:</label>
+      <select id="jenis-kelamin" name="jenis-kelamin" required>
+        <option value="" disabled selected>Pilih jenis kelamin</option>
+        <option value="L">Laki-laki</option>
+        <option value="P">Perempuan</option>
+      </select>
+
+      <label>Pendidikan Terakhir:</label>
+      <label for="smp">
+      <input type="radio" id="smp" name="sama">SMP 
+      </label> 
+      <label for="sma">
+      <input type="radio" id="sma" name="sama">SMA 
+      </label>
+      <label for="s1">
+      <input type="radio" id="s1" name="sama">S1 
+      </label>
+      <label for="s2">
+      <input type="radio" id="s2" name="sama">S2 
+      </label>
+      <label for="s3">
+      <input type="radio" id="s3" name="sama">S3 
+      </label>
+
+      <label for="alamat" style="padding-top: 20px;">Alamat:</label>
+      <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat" required>
+      
+      <label for="hobi">Genre Buku Favorit:</label>
+      <input type="checkbox" id="hobi" name="fiksiilmiah">Fiksi Ilmiah
+      <input type="checkbox" id="hobi" name="romance">romance
+      <input type="checkbox" id="hobi" name="Anime">Anime
+      <input type="checkbox" id="hobi" name="Anime">Misteri
+      <input type="checkbox" id="hobi" name="Anime">Sejarah
+      <p></p>
+
+      <label for="file">Upload KTP:</label>
+      <input type="file" id="file" placeholder="Upload KTP" required>
+      <div class="tombol">
+            <button class="btn btn-primary">Daftar Sekarang</button>
+      </div>
+      
+</body>
+</html>
