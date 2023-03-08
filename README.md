@@ -4,3 +4,4 @@ Website Perpustakaan seberang ini memiliki 4 halaman yaitu:
 2. halaman profil : halaman ini berisi profil dari pembuat website mulai dari foto profil, nama, umur, alamat dan pekerjaan
 3. halaman buku : halaman ini berisi buku-buku yang terdapat pada perpustkaan seberang, mulai dari gambar cover buku dan berbagai informasi terkait buku tersebut
 4. halaman member : halaman ini berisi formulir pendaftaran sebagai member perpustakaan seberang. pada form tersebut berisi nama, email, jenis kelamin, pendidikan terakhir, genre buku favorit dan akan diminta untuk menguploadkan ktp yang nanti nya akan dibuatkan kartu member perpustakaan seberang
+Lalu pada bagian footer terdapat kolom untuk menerima saran dari pengguna website
