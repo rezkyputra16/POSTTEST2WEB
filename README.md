@@ -9,6 +9,7 @@ Halaman untuk mendaftar akun
 
 
 Data pendaftar tersimpan di local storage
+
 ![2](https://user-images.githubusercontent.com/120233291/227706485-b09b99f4-46de-4beb-8027-b03f56843385.jpeg)
 
 
@@ -20,8 +21,8 @@ Menginput data pada form yang nantinya akan disimpan di session storage
 ![3](https://user-images.githubusercontent.com/120233291/227706635-e5512733-c53c-41cb-896a-c9a7e6c44f2d.jpeg)
 
 
-Dat
-a tersimpan di session storage
+Data tersimpan di session storage
+
 ![4](https://user-images.githubusercontent.com/120233291/227706683-ed1ba66e-08db-4c05-9fe2-dcb1dc0c0fe4.jpeg)
 
 
