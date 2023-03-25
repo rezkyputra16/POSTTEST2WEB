@@ -5,7 +5,7 @@
     font-family: "Open", sans-serif;
 }
 html {
-    background-color: rgb(0, 0, 0);
+    background-color: #252525;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -16,7 +16,7 @@ body{
   /* align-items: center;  */
   display: flex;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: #252525;
   
 }
 
@@ -31,7 +31,7 @@ body{
   padding: 15px;
   width: 100%;
   height: 80px;
-  background-color: black;
+  background-color: #252525;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0);
 }
 
@@ -119,7 +119,7 @@ body{
     margin: 5px 0;
   }
   footer {
-    background-color: #000000;
+    background-color: #252525;
     padding: 40px 0 0 40px;
   }
   
@@ -159,6 +159,6 @@ body{
   
   .ft1{
     color: #a5a4a4;
-    background-color: #000000;
+    background-color: #252525;
     text-align: center;
   }
